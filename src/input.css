@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .card{
+    @apply relative mt-8 bg-white rounded shadow-md overflow-hidden;
+} */
+.card{
+    @apply  mt-8 bg-white rounded shadow-md overflow-hidden;
+}
+.btn{
+    @apply cursor-pointer tracking-wider rounded-full p-2 uppercase;
+}
+.rectbtn{
+    @apply cursor-pointer tracking-wider p-2;
+}
+.badge{
+   @apply absolute bg-secondary-100 p-2 text-secondary-200 top-0 rounded-full ml-2 mt-2;
+}
